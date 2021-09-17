@@ -1,0 +1,21 @@
+<form [formGroup]="user" >
+    <div class="form-group">
+        <label for="">name</label>
+        <input type="text" class="form-control" formControlName="name" name="" id=""
+            aria-describedby="helpId" placeholder="name">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+    </div>
+    <div class="form-group">
+        <label for="">email</label>
+        <input type="text" class="form-control" formControlName="name" name="" id=""
+            aria-describedby="helpId" placeholder="name">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+    </div>
+    <div class="form-group">
+        <label for="">password</label>
+        <input type="text" class="form-control" formControlName="name" name="" id=""
+            aria-describedby="helpId" placeholder="name">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+    </div>
+    <button (click)="submit()" type="submit">register</button>
+</form>
